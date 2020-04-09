@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="pockeBaseColor">#FFFDFA</color>
+    <color name="tabBaseColor">#FFFBEA</color>
+    <color name="tabTextColor">#FFFFFF</color>
+    <color name="tabHomeColor">#FF889A</color>
+    <color name="tabSecond">#FA963F</color>
+    <color name="tabThird">#F7BB36</color>
+    <color name="tabFourth">#62BFBF</color>
+    <color name="tabFifth">#8490D6</color>
+    <color name="tabSixth">#72ACD8</color>
 </resources>
