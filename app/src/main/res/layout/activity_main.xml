@@ -13,15 +13,27 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:background="@color/tabBaseColor"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
         app:tabMode="scrollable"
         app:tabGravity="fill"
         app:tabIndicatorGravity="stretch"
         app:tabRippleColor="@null"
         app:tabTextColor="@color/tabTextColor" />
 
+    <View
+        android:id="@+id/tab_under_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#003399" />
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.viewpager.widget.ViewPager>
 
 </LinearLayout>

@@ -9,6 +9,7 @@ import android.text.Spanned
 import android.text.style.AbsoluteSizeSpan
 import android.text.style.BackgroundColorSpan
 import android.text.style.ForegroundColorSpan
+import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -16,7 +17,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 class Adapter(fragmentManager: FragmentManager, private val context: Context):
     FragmentPagerAdapter(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    private val tabItems = arrayOf("ホーム","かわいい","あるある","笑える","なるほど", "泣ける")
+    private val tabItems = arrayOf("トップ","かわいい","あるある","笑える","なるほど", "泣ける")
     private val tabColors = arrayOf("#FF889A","#FA963F","#F7BB36","#62BFBF","#8490D6","#72ACD8")
 
     override fun getItem(position: Int): Fragment {
