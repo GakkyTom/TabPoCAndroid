@@ -6,7 +6,7 @@
         android:right="45dp"
         android:top="10dp">
         <shape android:shape="rectangle">
-            <stroke android:color="#FFFFFF"/>
+            <stroke android:color="#000000"/>
             <corners
                 android:bottomLeftRadius="45dp"
                 android:bottomRightRadius="45dp"

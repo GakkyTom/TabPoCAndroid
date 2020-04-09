@@ -32,6 +32,7 @@ class Adapter(fragmentManager: FragmentManager, private val context: Context):
 
     override fun getPageTitle(position: Int): CharSequence? {
         val spannable = SpannableStringBuilder(tabItems[position])
+        // タブ文字色の初期設定
         spannable.setSpan(
                 ForegroundColorSpan(Color.parseColor(tabColors[position])),
                 0, // start

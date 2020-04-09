@@ -15,7 +15,6 @@
         android:background="@color/tabBaseColor"
         app:tabMode="scrollable"
         app:tabGravity="fill"
-        app:tabIndicator="@drawable/tab_indicator"
         app:tabIndicatorGravity="stretch"
         app:tabRippleColor="@null"
         app:tabTextColor="@color/tabTextColor" />
